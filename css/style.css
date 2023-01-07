@@ -40,3 +40,24 @@ footer > p {
 	background: blue;
 	display: inline-block;
 }
+.about {
+    text-justify: distribute;
+    font-display: chocolate;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.centre{
+	height: 80px;
+	width: 300px;
+	background: inherit;
+    border: 10px solid brown;
+	display: inline-block;
+    font-weight: bold;
+}
+
+.container_two {
+	border: 1px solid black;
+	padding: 10px;
+	text-align: center; 
+}
