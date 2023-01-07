@@ -1,5 +1,42 @@
 body {
     width:100%;
-    padding: 100%;
     background-color: #FFCD8E;
+
+}
+footer > p {
+    width: 100%;
+    clear: both;
+    image-rendering: optimizeQuality;
+}
+.opening_sentence{
+    width: 100%;
+    text-transform: coral;
+    position: static;
+    text-align: center;
+    margin: burlywood;
+}
+
+.home_paragraph{
+    text-justify: distribute;
+    font-display: chocolate;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+.container_one{
+    text-align: center;
+    padding-top: 40%;
+}
+.homepage{
+    background-image: url(https://tandfbis.s3-us-west-2.amazonaws.com/rt-files/Faculty/Laura+Maisey/10+tips+for+successful+studying+3+OP.jpg);
+    background-color:#FFCD8E;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-size: cover;
+}
+.social_media {
+    height: 80px;
+	width: 80px;
+	background: blue;
+	display: inline-block;
 }
