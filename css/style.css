@@ -1,12 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif
+}
+
 body {
     width:100%;
     background-color: #FFCD8E;
 
-}
-footer > p {
-    width: 100%;
-    clear: both;
-    image-rendering: optimizeQuality;
 }
 .opening_sentence{
     width: 100%;
@@ -37,7 +39,6 @@ footer > p {
 .social_media {
     height: 80px;
 	width: 80px;
-	background: blue;
 	display: inline-block;
 }
 .about {
@@ -47,17 +48,94 @@ footer > p {
     font-style: italic;
     font-weight: 500;
 }
-.centre{
-	height: 80px;
-	width: 300px;
-	background: inherit;
-    border: 10px solid brown;
-	display: inline-block;
-    font-weight: bold;
+
+header{
+    padding: 20px;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    z-index: 1000;
+    flex-direction: row;
+    justify-content: space-around;
+    background: rgb(35, 35, 35);
 }
 
-.container_two {
-	border: 1px solid black;
-	padding: 10px;
-	text-align: center; 
+.logo {
+    display: block;
+    color:  #FFCD8E;;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 10px;
+    font-size: 20px;
 }
+
+header ul {
+    display: flex;
+    float: right;
+    flex-wrap: wrap;
+}
+header li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+header li a {
+color:  #FFCD8E;;
+border: 1px solid  #FFCD8E;
+text-decoration: none;
+padding: 5px;
+}
+
+.section {
+    min-height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 30px;
+}
+
+.section-1 {
+    background-image: url(https://images.pexels.com/photos/5428012/pexels-photo-5428012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+
+.study-tip{
+    background-color: rgb(35, 35, 35);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color:  white;
+}
+
+
+.section-3 {
+    text-align: center;
+}
+
+.section-3 input {
+    height: 50px;
+}
+
+.section-3 button {
+    height: 50px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    padding: 10px;
+    background-color:  rgb(35, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
