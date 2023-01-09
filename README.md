@@ -4,7 +4,7 @@ Welcome to my website full of study tips:
  It is a website designed for students to discover new ways to invigorate their productive minds
  ot is meant for university students.
 
-![Responsice Mockup](assets/responsive4.png)
+![Responsice Mockup](assets/responsive.png)
 
 ## Features
 
