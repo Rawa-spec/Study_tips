@@ -14,6 +14,7 @@ The Navigation bar is featured on each page (home, study tips and signup).
 
 ### Footer Section
 
+
 The footer section contains links to facebook and twitter. The purpose of this feature is to have the user follow the company (amateur art) on our social platforms and be informed on updates that could be relevant to them. 
 
 ### Home Section
