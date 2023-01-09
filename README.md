@@ -32,7 +32,6 @@ Features a list of study tips
 
 ### Signup Section
 
-![Responsice Mockup](assets/signup4.png)
 
 Features an email input that allows users to add their email to receive a newsletter
 
