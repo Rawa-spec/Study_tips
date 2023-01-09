@@ -97,6 +97,15 @@ padding: 5px;
     line-height: 30px;
 }
 
+.image{ 
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+}
+
 .section-1 {
     background-image: url(https://images.pexels.com/photos/5428012/pexels-photo-5428012.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     color: white;
